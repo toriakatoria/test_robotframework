@@ -3,14 +3,14 @@ Library    SeleniumLibrary
 Documentation    Suite description #automated tests for scout website
 
 *** Variables ***
-${LOGIN URL}    https://scouts-test.futbolkolektyw.pl/en
+${LOGIN URL}    https://scouts.futbolkolektyw.pl/en
 ${BROWSER}  Chrome
 ${SIGNINBUTTON}  //*[@type='submit']
 ${LOGIN FIELD}  //*[@id='login']
 ${PASSWORD FIELD}   //input[@type='password']
 ${PLAYERS BUTTON}  //*[text()='Players']
 ${LOGIN ERROR}  //*/form/div/div[1]/div[3]/span
-${ADD MATCH URL}   https://scouts-test.futbolkolektyw.pl/en/players/62f2bce6159aa3d4fa18f4b2/matches/add
+${ADD MATCH URL}   https://scouts.futbolkolektyw.pl/en/players/62f2bce6159aa3d4fa18f4b2/matches/add
 ${ADD PLAYER BUTTON}    //div[3]/div[2]/div/div/a/button/span[1]
 ${NAME FIELD}   //input[@name='name']
 ${SURNAME FIELD}    //input[@name='surname']
